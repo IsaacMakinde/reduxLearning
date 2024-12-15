@@ -288,7 +288,7 @@ function ProductList() {
     setShowCart(false); // Hide the cart when navigating to About Us
   };
 
-  const handleContinueShopping = (e) => {
+  const handleContinueShopping = () => {
     setShowCart(false);
   };
   return (
